@@ -1,0 +1,24 @@
+
+.footer{
+    background-color: black;
+    color: #f4f4f4;
+    width: 100%;
+
+}
+a {
+    color: #a5a5a5 !important;
+}
+  @media (min-width: 768px) {
+    .bd-placeholder-img-lg {
+      font-size: 3.5rem;
+    }
+  }
+
+  .btn-sub{
+    background-color: #FFBF00 !important;
+    border: none !important;
+    color: #000 !important;
+  }
+.newsletter-title {
+    color: #FFBF00;
+}

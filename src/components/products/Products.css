@@ -1,0 +1,38 @@
+/*******************************************/
+.line{
+    width: 80px;
+    height: 5px;
+    background-color: #FFD369;
+    margin:auto;
+    margin-top: -10px;
+    
+}
+h1,h2,h3,h4,p,span{
+    text-align: center;
+
+}
+
+.our-team {
+    padding: 20px 0px;
+    background-color: #000000;
+}
+.title{
+    margin: 30px 0px;
+    color: #fff;
+    text-transform: uppercase;
+
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: auto;
+    padding: 60px 0px;
+
+}
+
+
+.team-content{
+    width: 100%;
+    position: relative;
+}

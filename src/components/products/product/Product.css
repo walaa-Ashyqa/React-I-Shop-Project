@@ -1,0 +1,117 @@
+/*******************************************/
+
+h1,h2,h3,h4,p,span{
+    text-align: center;
+
+}
+
+
+
+.team-item {
+    float: left;
+    background-color:#0e0e0e;
+    width:30%;
+    padding: 0px  0px;
+    text-align: center;
+    position: relative;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+.dd,.center-item {
+    margin: 0px  5%;
+}
+
+.team-img
+{
+    width: 100%;
+    border-radius: 5px;
+    margin: auto;
+    position: relative;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.team-img  img {
+    width: 100%;
+    border-radius:5px 5px 0px 0px;
+    -webkit-border-radius:5px 5px 0px 0px;
+    -moz-border-radius:5px 5px 0px 0px;
+    -ms-border-radius:5px 5px 0px 0px;
+    -o-border-radius:5px 5px 0px 0px;
+}
+.team-overley {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.5) ;
+    visibility: hidden;
+    opacity: 0 ;
+    transition: 1s ;
+    -webkit-transition: 1s ;
+    -moz-transition: 1s ;
+    -ms-transition: 1s ;
+    -o-transition: 1s ;
+}
+
+.team-item:hover  .team-overley {
+    opacity: 1 ;
+    visibility: visible;
+
+    
+}
+
+.icons{
+    display: block;
+    width: 40px;
+    height: 40px;
+    color: #fff;
+    margin: auto ;
+
+    margin-top: 30%;
+}
+
+
+
+.team-item::after {
+    position: absolute;
+    content: "";
+
+    width: 100% ;
+    height: 0 ;
+
+    bottom: 0;
+    left: 0;
+
+    background-color: rgb(14, 15, 14) ;
+    opacity: 0 ;
+    transition: 1s;
+}
+.team-item:hover::after {
+    width: 100%;
+    height: 100%;
+    opacity: 0.5 ;
+    float: left;
+}
+.team-info h2{
+color: #EEEEEE;
+margin-bottom: 5px;
+}
+.team-info span{
+    color: #FFD369;
+    }
+    .team-info p{
+        color: #EEEEEE;
+        }
+
+        .team-info-title{
+            font-size: 24px;
+        }
+      .team-info-sp{
+font-weight: 600;   }
+/************************************/
